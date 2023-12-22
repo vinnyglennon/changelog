@@ -19,20 +19,15 @@ function TryJuneBanner(props: TryJuneBannerProps) {
   const {
     heading = (
       <>
-        Set up June{" "}
+        Set up HowMuchRent{" "}
         <GradientHighlight {...(props.mode === "dark" && { variant: "lightest", glow: true })}>
-          in 2 minutes
+          in 3 minutes
         </GradientHighlight>
       </>
     ),
     description = (
       <>
-        Just connect <Highlight>Segment</Highlight>, implement{" "}
-        <Highlight as="a" href="https://www.june.so/docs">
-          our SDK
-        </Highlight>{" "}
-        or use our <Highlight>other integrations</Highlight> to start understanding how your product
-        is used
+        Just visit the website, search for rentals properties, or add your own
       </>
     ),
     buttonText = "Get started for free",
@@ -45,8 +40,8 @@ function TryJuneBanner(props: TryJuneBannerProps) {
     buttonHrefType === "external"
       ? React.Fragment
       : (linkProps: { children: React.ReactNode }) => (
-          <Link href={buttonHref} passHref prefetch={false} {...linkProps} />
-        );
+        <Link href={buttonHref} passHref prefetch={false} {...linkProps} />
+      );
 
   return (
     <Container maxW="landingMax" position="relative" px={[0, 0, 12, 12, 40]} {...props._wrapper}>
@@ -87,16 +82,7 @@ function TryJuneBanner(props: TryJuneBannerProps) {
           borderRadius="2xl"
           bg="linear-gradient(129.77deg, #ADABFF 16.97%, #9C88DD 64.88%, #CB8AE8 94.21%);"
         />
-        {/* Background grid */}
-        <Box position="absolute" right={0} bottom={0} top={0}>
-          <NextResponsiveImage
-            src="/try-june-bg-grid.svg"
-            alt="Background grid"
-            sx={{ aspectRatio: "0.7788018433" }}
-            height="full"
-            visibility={["hidden", "hidden", "visible"]}
-          />
-        </Box>
+
         <VStack align="center" spacing={6}>
           <VStack align="center" spacing={4} pos="relative">
             <Heading

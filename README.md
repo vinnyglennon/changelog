@@ -1,6 +1,5 @@
 # Changelog 🚀
 npm install
-npm install @next/swc-darwin-arm64 --save-dev
 npm run dev
 
 

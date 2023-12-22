@@ -22,7 +22,7 @@ export default function Layout({ children }: ILayoutProps) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://d365acqfolvjq6.cloudfront.net/assets/favicon-32x32.png" />
         <meta name="description" content="Discover new updates and improvements to HowMuchRent.com." />
         <meta name="image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
         <meta property="og:type" content="website" />
@@ -75,7 +75,7 @@ export default function Layout({ children }: ILayoutProps) {
                   {!isInBlogPage && (
                     <VStack alignItems="start" width="100%">
                       <Text fontSize="xl" color="gray.700" textAlign={"start"}>
-                        The latest from HowMuchRent
+                        The latest from HowMuchRent.com
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
                         Changelog

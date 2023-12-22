@@ -32,9 +32,8 @@ export const MainLayout = ({
   totalItems,
   infiniteScrollingView,
 }: MainLayoutProps) => {
-  const metaTitle = `${
-    infiniteScrollingView ? "" : page > 0 ? `Page ${page} -` : ""
-  } June Changelog`;
+  const metaTitle = `${infiniteScrollingView ? "" : page > 0 ? `Page ${page} -` : ""
+    } HowMuchRent Changelog`;
   const timeline = useTimelineStore();
   const { animatePage, setAnimatePage } = useAnimatePageStore();
   const router = useRouter();
@@ -91,28 +90,28 @@ export const MainLayout = ({
           <link rel="icon" href="/favicon.ico" />
           <meta name="title" content={metaTitle} />
           <meta name="description" content="Discover new updates and improvements to June." />
-          <meta name="image" content="https://changelog.june.so/social.png" />
+          <meta name="image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://changelog.june.so" />
+          <meta property="og:url" content="https://blog.howmuchrent.com" />
           <meta property="og:title" content={metaTitle} />
           <meta
             property="og:description"
             content="Discover new updates and improvements to June."
           />
-          <meta property="og:image" content="https://changelog.june.so/social.png" />
+          <meta property="og:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://changelog.june.so" />
+          <meta name="twitter:url" content="https://blog.howmuchrent.com" />
           <meta name="twitter:title" content={metaTitle} />
           <meta
             name="twitter:description"
             content="Discover new updates and improvements to June."
           />
-          <meta name="twitter:image" content="https://changelog.june.so/social.png" />
+          <meta name="twitter:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <link
             rel="alternate"
             type="application/rss+xml"
-            title="June Changelog"
-            href="https://changelog.june.so/rss.xml"
+            title="HowMuchRent Changelog"
+            href="https://blog.howmuchrent.com/rss.xml"
           />
         </Head>
       )}
@@ -170,7 +169,7 @@ export const MainLayout = ({
                   {!isInBlogPage && (
                     <VStack alignItems="start" width="100%">
                       <Text fontSize="xl" color="gray.700" textAlign={"start"}>
-                        The latest from June
+                        The latest from HowMuchRent.com
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
                         Changelog
