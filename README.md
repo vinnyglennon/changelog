@@ -1,7 +1,7 @@
 # Changelog 🚀
 npm install
-npm run dev
-
+npm run dev # for local dev
+npm run build # to test production builds
 
 ![summary-repo](https://github.com/juneHQ/changelog/assets/104089773/91b333a5-0e66-420d-b0bf-815e76570501)
 
