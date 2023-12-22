@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>June Changelog</title>
-        <link>https://changelog.june.so</link>
+        <title>HowMuchRent Changelog</title>
+        <link>https://blog.howmuchrent.com</link>
         <description>How June gets better every week</description>
-        <lastBuildDate>Mon, 18 Dec 2023 12:18:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Dec 2023 15:14:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for June changelog</generator>
         <image>

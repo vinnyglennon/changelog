@@ -8,6 +8,7 @@ import { Box, Container, Heading, HStack, Text, VStack } from "@chakra-ui/react"
 import TimeSelectionTabs from "../core/time-selection-tabs";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export interface ILayoutProps {
   children: React.ReactNode;
@@ -22,21 +23,21 @@ export default function Layout({ children }: ILayoutProps) {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Discover new updates and improvements to June." />
-        <meta name="image" content="https://changelog.june.so/social.png" />
+        <meta name="description" content="Discover new updates and improvements to HowMuchRent.com." />
+        <meta name="image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://changelog.june.so" />
-        <meta property="og:description" content="Discover new updates and improvements to June." />
-        <meta property="og:image" content="https://changelog.june.so/social.png" />
+        <meta property="og:url" content="https://blog.howmuchrent.com" />
+        <meta property="og:description" content="Discover new updates and improvements to HowMuchRent." />
+        <meta property="og:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://changelog.june.so" />
-        <meta name="twitter:description" content="Discover new updates and improvements to June." />
-        <meta name="twitter:image" content="https://changelog.june.so/social.png" />
+        <meta name="twitter:url" content="https://blog.howmuchrent.com" />
+        <meta name="twitter:description" content="Discover new updates and improvements to HowMuchRent." />
+        <meta name="twitter:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="June Changelog"
-          href="https://changelog.june.so/rss.xml"
+          title="HowMuchRent Changelog"
+          href="https://blog.howmuchrent.com/rss.xml"
         />
       </Head>
       <motion.div initial="hidden" animate="visible">
@@ -74,7 +75,7 @@ export default function Layout({ children }: ILayoutProps) {
                   {!isInBlogPage && (
                     <VStack alignItems="start" width="100%">
                       <Text fontSize="xl" color="gray.700" textAlign={"start"}>
-                        The latest from June
+                        The latest from HowMuchRent
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
                         Changelog
@@ -100,6 +101,7 @@ export default function Layout({ children }: ILayoutProps) {
           </motion.div>
         </Box>
       </motion.div>
+      <SpeedInsights />
     </>
   );
 }
