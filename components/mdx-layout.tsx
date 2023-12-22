@@ -296,18 +296,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
             >
               {props.children}
             </Box>
-          </motion.div>
-          {/* Article authors */}
-          {!props.hideAuthors && (
-            <>
-              <Divider mt={16} mb={8} />
-              <VStack px={[6]} align="start" spacing={4}>
-                {props.meta.authors.map((author) => (
-                  <Contributor key={author.name} {...author} />
-                ))}
-              </VStack>
-            </>
-          )}
+          </motion.div>=
         </Box>
       </Timeline>
     </MDXProvider>
