@@ -8,7 +8,6 @@ import { Box, Container, Heading, HStack, Text, VStack } from "@chakra-ui/react"
 import TimeSelectionTabs from "../core/time-selection-tabs";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export interface ILayoutProps {
   children: React.ReactNode;
@@ -101,7 +100,6 @@ export default function Layout({ children }: ILayoutProps) {
           </motion.div>
         </Box>
       </motion.div>
-      <SpeedInsights />
     </>
   );
 }

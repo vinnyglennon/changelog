@@ -4,9 +4,6 @@
   "private": true,
   "scripts": {
     "develop": "next dev",
-    "install:mac": "npm install @next/swc-darwin-arm64 --save-dev",
-    "install:linux": "npm install @next/swc --save-dev",
-    "postinstall": "node ./scripts/installDependencies.js",
     "dev": "next dev -p 3004",
     "postbuild": "next-sitemap",
     "build": "next build && next export",
