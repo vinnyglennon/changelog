@@ -45,8 +45,6 @@ const wordmarkSvg = `<svg width="313" height="100" viewBox="0 0 313 100" fill="n
 `;
 
 const ROUTES = [
-  { href: "https://june.so/customer-stories", title: "Customers", type: "external-link" },
-  { href: "https://june.so/pricing", title: "Pricing", type: "external-link" },
   { href: "/", title: "Changelog", type: "internal-link" },
 ] as const;
 
@@ -98,7 +96,7 @@ function Navbar(props: NavbarProps) {
         >
           <Flex direction="column">
             <Flex align="center" justify="space-between">
-              <Flex p={4} as="a" href="https://june.so/">
+              <Flex p={4} as="a" href="https://www.howmuchrent.com">
                 <NextImage
                   height={48}
                   width={48}

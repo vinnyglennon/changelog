@@ -89,14 +89,14 @@ export const MainLayout = ({
           <title>{metaTitle}</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="title" content={metaTitle} />
-          <meta name="description" content="Discover new updates and improvements to June." />
+          <meta name="description" content="Discover new updates and improvements to HowMuchRent.com" />
           <meta name="image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://blog.howmuchrent.com" />
           <meta property="og:title" content={metaTitle} />
           <meta
             property="og:description"
-            content="Discover new updates and improvements to June."
+            content="Discover new updates and improvements to HowMuchRent.com"
           />
           <meta property="og:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <meta name="twitter:card" content="summary_large_image" />
@@ -104,7 +104,7 @@ export const MainLayout = ({
           <meta name="twitter:title" content={metaTitle} />
           <meta
             name="twitter:description"
-            content="Discover new updates and improvements to June."
+            content="Discover new updates and improvements to HowMuchRent.com"
           />
           <meta name="twitter:image" content="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" />
           <link

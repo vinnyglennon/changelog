@@ -1,0 +1,59 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "2023-in-review",
+  publishedAt: "2023-12-22T11:00:00.000Z",
+  title: "HowMuchRent year in review",
+  headerImage:
+    "https://d365acqfolvjq6.cloudfront.net/assets/social_example.png",
+};
+
+Hope you are set for Christmas, and near warmth. First update on [https://www.howmuchrent.com](https://www.howmuchrent.com), a website for rental transparency in Ireland.
+
+You have been one of the first people on the website. In renting, what are your main challenges and needs? What can the website do to be more valuable/useful to you? 
+
+## **Useful Links**
+[Properties advertising their rates between 3%-50%](https://www.howmuchrent.com/r/above2percent) above their previous rate. 2% is the general maximum in a rent pressure zone. Currently tracking over 1200 properties that is over the 2% rule. 
+
+[124 tenants out of the 280 User submitted rents](https://www.howmuchrent.com/r/user_reviews) included a description/review of their property. This is of use to the next people looking to rent at that location. This information currently gets lost the moment the tenant leaves the accommodation.
+  
+[Nearly 16K Residental Tenant Board judgments](https://www.howmuchrent.com/r/rtb_reports) , can now be seen on the map. Nice being able to see if a property you are interested in, has had any RTB judgment on it before moving into it, or if the tenant/landlord were ever in dispute with each other.
+ 
+
+## **New Features**
+  - When you click on a property, you can now see any other properties that this person has advertised recently. See if you can find the Airbnb landlord managing over 1000 properties in Ireland!
+  
+  - We are collecting data on evictions etc when we ask people to add in their rents.
+  
+  - The website is now available in 10 languages, Irish, Italian, Brazilian Portuguese, Spanish, French, German, Polish, Ukraine and Russian.
+  Try in [Gaeilge](https://www.howmuchrent.com/?locale=ga) and back to [English](https://www.howmuchrent.com/?locale=en)
+  
+  - A Take Tour option was added, to help people learn more about what is possible with the website.
+  
+  - I added Landlord and Property Ratings to the search filters. There are also separate sections for dealing with if you got your deposit back, etc from them. 
+  
+  - If you are interested in a property, you can now add a property alert, to be emailed when there is a future change to the price or description of the accommodation by the landlord. 
+ 
+  - You can now see how many times your property has been viewed by others, by clicking on your property on the map. 
+  
+  
+## **Mentions**
+  - [Union of Students in Ireland](https://usi.ie/) has endorsed the website for their 300K+ students.
+  
+  - [crazyhouseprices](https://www.instagram.com/crazyhouseprices) a couple of weeks ago, did a photo post of the website, thank you very much!! Many of you may have seen it.
+
+  - [Reddit: Irish Politics](https://www.reddit.com/r/irishpolitics/comments/17hlvp6/rental_transparency_in_ireland_for_renters_rents/)
+
+  - [Rent Dublin](https://www.reddit.com/r/Dublin/comments/17h2r6c/rents_charged_by_landlords_in_dublin_should_be/)
+
+
+Share the Website with your friends. Website depends on you to get the word out, join the conversation
+  - [Twitter](https://twitter.com/howmuchrenthq)
+  - [Instagram](https://www.instagram.com/howmuchrent/)
+  - [Reddit](https://www.reddit.com/r/howmuchrentIreland/)
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

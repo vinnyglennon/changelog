@@ -62,7 +62,7 @@ export interface MdxLayoutProps {
 export const MdxLayout = (props: MdxLayoutProps) => {
   const title = `${props.meta.title} | June Changelog`;
   const description = "Discover new updates and improvements to June.";
-  const url = "https://changelog.june.so";
+  const url = "https://blog.howmuchrent.com";
 
   const { setPrevUrl } = usePreviousPageUrl();
   const router = useRouter();
@@ -131,7 +131,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
             rel="alternate"
             type="application/rss+xml"
             title="June Changelog"
-            href="https://changelog.june.so/rss.xml"
+            href="https://blog.howmuchrent.com/rss.xml"
           />
         </Head>
       )}
@@ -146,7 +146,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
           width={["100%", "100%", "682px"]}
           // w="100%"
           maxW="682px"
-          // px={defaultPx(32)}
+        // px={defaultPx(32)}
         >
           {/* Article header */}
           <VStack align="start" spacing={[4, 4, 6]}>

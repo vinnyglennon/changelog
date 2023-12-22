@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>June Changelog</title>
-        <link>https://changelog.june.so</link>
-        <description>How June gets better every week</description>
-        <lastBuildDate>Fri, 22 Dec 2023 17:05:20 GMT</lastBuildDate>
+        <title>HowMuchRent Changelog</title>
+        <link>https://blog.howmuchrent.com</link>
+        <description>How HowMuchRent gets better every week</description>
+        <lastBuildDate>Fri, 22 Dec 2023 17:37:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-        <generator>Feed for June changelog</generator>
+        <generator>Feed for HowMuchRent changelog</generator>
         <image>
-            <title>June Changelog</title>
-            <url>https://changelog.june.so/favicon.ico</url>
-            <link>https://changelog.june.so</link>
+            <title>HowMuchRent Changelog</title>
+            <url>https://blog.howmuchrent.com/favicon.ico</url>
+            <link>https://blog.howmuchrent.com</link>
         </image>
         <copyright>All rights reserved 2023, June</copyright>
         <item>
-            <title><![CDATA[June year in review]]></title>
-            <link>https://changelog.june.so/changelogs/2022-in-review</link>
-            <guid>https://changelog.june.so/changelogs/2022-in-review</guid>
-            <pubDate>Fri, 23 Dec 2022 11:00:00 GMT</pubDate>
-            <enclosure url="https://june-changelog.s3.eu-central-1.amazonaws.com/2022-in-review/2022-in-review.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Accurate companies]]></title>
-            <link>https://changelog.june.so/changelogs/accurate-grouping</link>
-            <guid>https://changelog.june.so/changelogs/accurate-grouping</guid>
-            <pubDate>Fri, 11 Feb 2022 11:00:00 GMT</pubDate>
-            <enclosure url="https://june-changelog.s3.eu-central-1.amazonaws.com/Group_1629_ec0e40995f.png" length="0" type="image/png"/>
+            <title><![CDATA[HowMuchRent year in review]]></title>
+            <link>https://blog.howmuchrent.com/changelogs/2023-in-review</link>
+            <guid>https://blog.howmuchrent.com/changelogs/2023-in-review</guid>
+            <pubDate>Fri, 22 Dec 2023 11:00:00 GMT</pubDate>
+            <enclosure url="https://d365acqfolvjq6.cloudfront.net/assets/social_example.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

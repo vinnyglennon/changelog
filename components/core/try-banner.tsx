@@ -31,7 +31,7 @@ function TryJuneBanner(props: TryJuneBannerProps) {
       </>
     ),
     buttonText = "Get started for free",
-    buttonHref = "https://analytics.june.so/start",
+    buttonHref = "https://www.howmuchrent.com",
     buttonHrefType = "external",
     mode = "light",
   } = props;
