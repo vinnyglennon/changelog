@@ -17,8 +17,8 @@ export const generateRssFeed = async () => {
     description: "How HowMuchRent gets better every week",
     id: siteURL,
     link: siteURL,
-    image: `${siteURL}/favicon.ico`,
-    favicon: `${siteURL}/favicon.ico`,
+    image: `https://d365acqfolvjq6.cloudfront.net/assets/favicon-32x32.png`,
+    favicon: `https://d365acqfolvjq6.cloudfront.net/assets/favicon-32x32.png`,
     copyright: `All rights reserved ${date.getFullYear()}, June`,
     updated: date, // today's date
     generator: "Feed for HowMuchRent changelog",
