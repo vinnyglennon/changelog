@@ -91,3 +91,7 @@ You'll need to run the `sync_images.sh` script to sync your local images with yo
 ```bash
 ./sync_images.sh
 ```
+
+
+Vercel, log in via Github.
+Continuously generated from Github
