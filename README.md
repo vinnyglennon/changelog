@@ -3,14 +3,6 @@ npm install
 npm run dev # for local dev
 npm run build # to test production builds
 
-![summary-repo](https://github.com/juneHQ/changelog/assets/104089773/91b333a5-0e66-420d-b0bf-815e76570501)
-
-![screenshot-repo](https://github.com/juneHQ/changelog/assets/104089773/18ff86a4-3e9f-4fc8-9fab-38fb15b0c8cd)
-
-Set-up a changelog and share what you ship as easy as 1-2-3. A Next.js blog starter project built with MDX and Chakra UI. Fully-customizable and open source, so don't hesitate to add new features and report bugs!
-
-#### [👉 Visit working demo](https://changelog.june.so)
-
 ## Features
 
 - 💅 A stylish changelog
@@ -21,17 +13,7 @@ Set-up a changelog and share what you ship as easy as 1-2-3. A Next.js blog star
 - 🎉 Celebrate your team's achievements with team credits on each post
 - ⚙️ Easy-to-use admin panel
 
-👇 Mosaic mode in action below
-
-![ezgif com-video-to-gif (39)](https://github.com/juneHQ/changelog/assets/104089773/6ae75ac9-2a47-4dc9-9fb0-73cb90dbd2b7)
-
-## Getting started
-
-The easiest way to try this is to run it locally on your computer.
-
-First, you'll need to create your own copy of this code. You can do so by clicking the ["Fork"](https://github.com/juneHQ/changelog/fork) button on GitHub and filling out the form.
-
-Once you've cloned the repository, create a `.env.local` file to setup the environment variables, you can reuse the default variables or change them as you will:
+ `.env.local` file to setup the environment variables, you can reuse the default variables or change them as you will:
 
 ```bash
 cp .env.example .env.local
@@ -109,10 +91,3 @@ You'll need to run the `sync_images.sh` script to sync your local images with yo
 ```bash
 ./sync_images.sh
 ```
-
-## Branding customization
-
-Most of the branding elements can be found in `<Navbar>` and `<Footer>` components. To customize these components, update the code in these directories:
-
-- [`components/core/navbar/index.tsx`](https://github.com/juneHQ/changelog/tree/master/components/core/navbar)
-- [`components/core/footer/index.tsx`](https://github.com/juneHQ/changelog/tree/master/components/core/footer)

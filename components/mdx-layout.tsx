@@ -8,6 +8,8 @@ import dayjs from "dayjs";
 import { Contributor } from "components/contributor";
 import { ReactNode } from "@mdx-js/react/lib";
 import { MDXProvider } from "@mdx-js/react";
+import posthog from 'posthog-js'
+
 import {
   Box,
   Divider,
@@ -107,6 +109,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
     props.hideLayout && props.isInfiniteScrollingView && props.index === 0;
 
   const isInBlogPage = router.pathname.startsWith("/changelogs/");
+  posthog.init('phc_QFwiB4NHloqJtBY9HFVlqfOpgEy7lv9EkFPxO07aNSZ', { api_host: 'https://eu.posthog.com' })
 
   const MDX = () => (
     <MDXProvider components={components}>
@@ -127,6 +130,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={props.meta.headerImage} />
+
           <link
             rel="alternate"
             type="application/rss+xml"
