@@ -1,0 +1,26 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "rtb-reports-available-on-map",
+  publishedAt: "2024-01-25T11:00:00.000Z",
+  title: "RTB Reports available on Map",
+  headerImage:
+    "https://d365acqfolvjq6.cloudfront.net/assets/rtb_report.png",
+};
+
+[https://www.howmuchrent.com/r/rtb_reports](https://www.howmuchrent.com/r/rtb_reports) now has over 15k Residential Tenancies Board judgements available to explore. When you are viewing a property, you can now tell if the landlord/tenant ever went to court in dispute, for example over the Landlord not returning the deposit. 
+
+These reports are available on [https://www.rtb.ie](https://www.rtb.ie), but only in PDF format. There was no map showing their location and were not searchable.
+
+[https://www.howmuchrent.com/r/rtb_reports](https://www.howmuchrent.com/r/rtb_reports) to see all the reports. Some landlords have over 100 reports against them. I have spotted tenants with multiple cases against them too from different landlords. 
+
+HowMuchRent.com eliminates the guesswork from the renting process in Ireland. It's time for clarity.
+
+![Map showing RTB properties in a small part of Dublin](https://d365acqfolvjq6.cloudfront.net/assets/rtb_report.png)
+
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);
