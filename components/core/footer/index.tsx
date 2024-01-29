@@ -114,47 +114,6 @@ export function Footer(props: FooterProps) {
             />
           </VStack>
         </GridItem>
-        <GridItem display={["block", "block", "none"]}>
-          <VStack align="start">
-            <FooterLink mode={props.mode} title="Backed by" type="text" />
-            <FooterLink
-              type="node"
-              title={
-                <Box>
-                  <NextImage
-                    src="/yc-orange-logo.png"
-                    alt="y-combinator logo"
-                    width={120}
-                    height={24}
-                  />
-                </Box>
-              }
-            />
-          </VStack>
-        </GridItem>
-        <GridItem display={["block", "block", "none"]}>
-          <VStack align="start" spacing={LINK_GAPS}>
-            <FooterLink
-              type="node"
-              title={
-                <a
-                  href="https://www.producthunt.com/posts/june-1-0?utm_source=badge-golden-kitty-badge&utm_medium=badge&utm_souce=badge-june-1-0"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="https://api.producthunt.com/widgets/embed-image/v1/golden-kitty-badge.svg?post_id=285721&theme=light"
-                    alt="June 1.0 - Instant analytics reports built on top of Segment | Product Hunt"
-                    htmlWidth="250"
-                    htmlHeight="54"
-                    width="250px"
-                    height="54px"
-                  />
-                </a>
-              }
-            />
-          </VStack>
-        </GridItem>
       </Grid>
     </Container>
   );

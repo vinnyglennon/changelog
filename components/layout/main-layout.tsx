@@ -2,7 +2,6 @@ import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import { defaultPx } from "lib/utils/default-container-px";
-import TryBanner from "components/core/try-banner";
 import Navbar from "components/core/navbar";
 import { Footer } from "components/core/footer";
 import { Box, Button, Container, Heading, HStack, Text, VStack } from "@chakra-ui/react";
@@ -172,7 +171,7 @@ export const MainLayout = ({
                         The latest from HowMuchRent.com
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
-                        Changelog
+                        Blog
                       </Heading>
                     </VStack>
                   )}
@@ -224,7 +223,6 @@ export const MainLayout = ({
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
-        <TryBanner _wrapper={{ my: [50, 50, 120] }} />
 
         <Footer _wrapper={{ mt: [50, 50, 120], mb: 20 }} />
       </motion.div>

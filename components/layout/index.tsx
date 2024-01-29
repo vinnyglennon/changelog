@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import { defaultPx } from "lib/utils/default-container-px";
-import TryBanner from "components/core/try-banner";
 import Navbar from "components/core/navbar";
 import { Footer } from "components/core/footer";
 import { Box, Container, Heading, HStack, Text, VStack } from "@chakra-ui/react";
@@ -35,7 +34,7 @@ export default function Layout({ children }: ILayoutProps) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="HowMuchRent Changelog"
+          title="HowMuchRent Blog"
           href="https://blog.howmuchrent.com/rss.xml"
         />
       </Head>
@@ -77,7 +76,7 @@ export default function Layout({ children }: ILayoutProps) {
                         The latest from HowMuchRent.com
                       </Text>
                       <Heading as="h1" fontSize={["5xl"]} color="black" textAlign={"start"}>
-                        Changelog
+                        Blog
                       </Heading>
                     </VStack>
                   )}
@@ -94,8 +93,6 @@ export default function Layout({ children }: ILayoutProps) {
               visible: { opacity: 1, transition: { duration: 1, delay: 0.4 } },
             }}
           >
-            <TryBanner _wrapper={{ my: [50, 50, 120] }} />
-
             <Footer _wrapper={{ mt: [50, 50, 120], mb: 20 }} />
           </motion.div>
         </Box>

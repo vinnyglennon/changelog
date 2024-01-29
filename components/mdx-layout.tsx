@@ -62,8 +62,8 @@ export interface MdxLayoutProps {
 }
 
 export const MdxLayout = (props: MdxLayoutProps) => {
-  const title = `${props.meta.title} | June Changelog`;
-  const description = "Discover new updates and improvements to June.";
+  const title = `${props.meta.title} | HowMuchRent.com Blog`;
+  const description = "Discover new updates and improvements to HowMuchRent.";
   const url = "https://blog.howmuchrent.com";
 
   const { setPrevUrl } = usePreviousPageUrl();
@@ -134,7 +134,7 @@ export const MdxLayout = (props: MdxLayoutProps) => {
           <link
             rel="alternate"
             type="application/rss+xml"
-            title="June Changelog"
+            title="HowMuchRent.com Blog"
             href="https://blog.howmuchrent.com/rss.xml"
           />
         </Head>
