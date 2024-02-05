@@ -1,0 +1,17 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "2024-02-context-on-rtb-landlords",
+  publishedAt: "2024-02-05T11:00:00.000Z",
+  title: "Context on some of the groups mentioned in the Top RTB cases",
+  headerImage:
+    "https://d365acqfolvjq6.cloudfront.net/assets/rtb_context.png",
+};
+
+I would like to give readers more context on the different top users of RTB. Would you be interested in seeing new reports attached to the different names like the image? If so, do get in contact with the RTB user and the newspaper link to share at info@howmuchrent.com.
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

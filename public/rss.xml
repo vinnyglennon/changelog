@@ -4,7 +4,7 @@
         <title>HowMuchRent Changelog</title>
         <link>https://blog.howmuchrent.com</link>
         <description>How HowMuchRent gets better every week</description>
-        <lastBuildDate>Mon, 29 Jan 2024 14:55:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Feb 2024 16:19:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for HowMuchRent changelog</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://blog.howmuchrent.com</link>
         </image>
         <copyright>All rights reserved 2024, June</copyright>
+        <item>
+            <title><![CDATA[Context on some of the groups mentioned in the Top RTB cases]]></title>
+            <link>https://blog.howmuchrent.com/changelogs/2024-02-context-on-rtb-landlords</link>
+            <guid>https://blog.howmuchrent.com/changelogs/2024-02-context-on-rtb-landlords</guid>
+            <pubDate>Mon, 05 Feb 2024 11:00:00 GMT</pubDate>
+            <enclosure url="https://d365acqfolvjq6.cloudfront.net/assets/rtb_context.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[9% of all Residential Tenancies Board cases nationwide involved just 10 groups]]></title>
             <link>https://blog.howmuchrent.com/changelogs/2024-01-main_users_of_rtb</link>

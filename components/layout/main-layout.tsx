@@ -32,7 +32,7 @@ export const MainLayout = ({
   infiniteScrollingView,
 }: MainLayoutProps) => {
   const metaTitle = `${infiniteScrollingView ? "" : page > 0 ? `Page ${page} -` : ""
-    } HowMuchRent Changelog`;
+    } Blog: HowMuchRent`;
   const timeline = useTimelineStore();
   const { animatePage, setAnimatePage } = useAnimatePageStore();
   const router = useRouter();
@@ -187,6 +187,7 @@ export const MainLayout = ({
                   visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.3 } },
                 }}
               >
+                {/* 
                 <VStack align={["stretch", "stretch", "center"]}>
                   {page === 0 && hasMorePage ? (
                     <Link href={`/page/1#${timeline.view}`}>
@@ -213,6 +214,7 @@ export const MainLayout = ({
                     </HStack>
                   )}
                 </VStack>
+                 */}
               </motion.div>
             </VStack>
           </Container>
