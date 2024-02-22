@@ -1,7 +1,10 @@
 # Changelog 🚀
 npm install
-npm run dev # for local dev
-npm run build # to test production builds before deploying
+npm run dev # for local dev, to see it
+
+# must be done pre deploy
+npm run build 
+npm run sitemap
 
 
 ## Features
