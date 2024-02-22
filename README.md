@@ -1,7 +1,8 @@
 # Changelog 🚀
 npm install
 npm run dev # for local dev
-npm run build # to test production builds
+npm run build # to test production builds before deploying
+
 
 ## Features
 

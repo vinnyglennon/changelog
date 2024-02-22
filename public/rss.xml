@@ -4,7 +4,7 @@
         <title>HowMuchRent Changelog</title>
         <link>https://blog.howmuchrent.com</link>
         <description>How HowMuchRent gets better every week</description>
-        <lastBuildDate>Mon, 05 Feb 2024 17:04:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Feb 2024 17:08:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for HowMuchRent changelog</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://blog.howmuchrent.com</link>
         </image>
         <copyright>All rights reserved 2024, June</copyright>
+        <item>
+            <title><![CDATA[256559 Properties that have registered on the RTB, is now searchable]]></title>
+            <link>https://blog.howmuchrent.com/changelogs/2024-02-rtb-verified</link>
+            <guid>https://blog.howmuchrent.com/changelogs/2024-02-rtb-verified</guid>
+            <pubDate>Thu, 22 Feb 2024 16:00:00 GMT</pubDate>
+            <enclosure url="https://d365acqfolvjq6.cloudfront.net/assets/rtb_verified-min.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Properties Viewed Since we started]]></title>
             <link>https://blog.howmuchrent.com/changelogs/2024-02-properties-viewed</link>

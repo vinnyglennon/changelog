@@ -1,0 +1,27 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "2024-02-rtb-verified",
+  publishedAt: "2024-02-22T16:00:00.000Z",
+  title: "256559 Properties that have registered on the RTB, is now searchable",
+  headerImage:
+    "https://d365acqfolvjq6.cloudfront.net/assets/rtb_verified-min.png",
+};
+
+As part of my drive for Rental Transparency in Ireland, I mapped all the properties registered with the RTB: https://www.howmuchrent.com/r/rtb_verified . It cost me over 1000 Euro to do this, and I hope you find it useful. This gives the first insight into where people are registered to rent.
+
+Every Renter has a story to tell about their place. Add your story to HowMuchRent.com. Read reviews tenants left of their place, and past prices charged for properties.
+
+Vinny
+
+PS
+
+From https://www.rtb.ie/registration-and-compliance/registrations/registering-your-tenancy/how-to-register
+
+Taking effect from 04 April 2022, a landlord is obliged to apply to the Residential Tenancies Board (RTB) to register a tenancy - or a licence in Student Specific Accommodation (SSA) - within 1 month of its commencement date and every year after this, on the anniversary of the date the tenancy began, for so long as the tenancy/SSA licence exists.  
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);
