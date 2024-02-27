@@ -1,0 +1,61 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "2024-02-rtb-breakdown-per-county",
+  publishedAt: "2024-02-28T16:00:00.000Z",
+  title: "Breakdown of 256559 Properties that have registered on the RTB",
+  headerImage:
+    "https://d365acqfolvjq6.cloudfront.net/rtb_graphs/distribution_of_bedrooms_in_Republic%20Of%20Ireland.png",
+};
+
+As part of my drive for Rental Transparency in Ireland, last week I mapped over 250k properties registered with the RTB.
+Over the weekend, i looked into some of the stats.
+
+
+[Ireland](https://www.howmuchrent.com/pages/rtb_graphs?county=Republic%20Of%20Ireland)
+
+[Dublin](https://www.howmuchrent.com/pages/rtb_graphs?county=Dublin) 
+
+[Galway](https://www.howmuchrent.com/pages/rtb_graphs?county=Galway)
+
+
+[Cork](https://www.howmuchrent.com/pages/rtb_graphs?county=Cork)
+
+The rest of the counties are listed there too.
+
+
+The top 3 places been rented and registered are Galway, Cork and then Dublin 8, amazingly. D8 are nearly as much tenants along as all of Galway or Cork.
+
+People are reporting new Estates that have already been rented out. 
+
+We can now track the number of registered properties month on month, to see which areas are increasing/decreasing.
+
+
+
+
+
+
+
+
+
+[To see all of them on a clickable map](https://www.howmuchrent.com/r/rtb_verified).
+
+Every Renter has a story to tell about their place. Add your story to HowMuchRent.com. Read reviews tenants left of their place, and past prices charged for properties.
+
+
+
+HowMuchRent Team. Follow us:
+
+[Reddit](https://www.reddit.com/r/howmuchrentIreland/)
+
+[Twitter](https://twitter.com/howmuchrenthq)
+
+[Linkedin](https://www.linkedin.com/company/howmuchrent)
+
+[Facebook](https://www.facebook.com/people/Howmuchrent/61551804814487/)
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

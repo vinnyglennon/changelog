@@ -1,6 +1,10 @@
 # Changelog 🚀
 npm install
-npm run dev # for local dev, to see it
+
+ # for local dev, to see it
+cd /Users/vinnyglennon/src/howmuchrent/changelog
+npm run dev
+chrome http://localhost:3004/
 
 # must be done pre deploy
 npm run build 
