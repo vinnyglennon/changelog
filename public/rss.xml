@@ -4,7 +4,7 @@
         <title>HowMuchRent Changelog</title>
         <link>https://blog.howmuchrent.com</link>
         <description>How HowMuchRent gets better every week</description>
-        <lastBuildDate>Wed, 28 Feb 2024 16:09:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Mar 2024 18:32:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for HowMuchRent changelog</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://blog.howmuchrent.com</link>
         </image>
         <copyright>All rights reserved 2024, June</copyright>
+        <item>
+            <title><![CDATA[130K Plus Properties that registered on the Irish Property Price Register now viewable on the Irish map]]></title>
+            <link>https://blog.howmuchrent.com/changelogs/2024-03-property-price-register</link>
+            <guid>https://blog.howmuchrent.com/changelogs/2024-03-property-price-register</guid>
+            <pubDate>Tue, 05 Mar 2024 16:00:00 GMT</pubDate>
+            <enclosure url="https://d365acqfolvjq6.cloudfront.net/assets/ppr.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Breakdown of 256559 Properties that have registered on the RTB]]></title>
             <link>https://blog.howmuchrent.com/changelogs/2024-02-rtb-breakdown-per-county</link>
