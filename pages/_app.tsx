@@ -19,14 +19,14 @@ import "@fontsource/inter/700.css";
 import "@fontsource/inter/800.css";
 import "@fontsource/inter/900.css";
 
-import juneTheme from "../lib/theme";
+import howMuchRentTheme from "../lib/theme";
 import Layout from "components/layout";
 
 dayjs.extend(advancedFormat);
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <ChakraProvider theme={juneTheme}>
+    <ChakraProvider theme={howMuchRentTheme}>
       {/* <Layout> */}
         <Component {...pageProps} />
       {/* </Layout> */}

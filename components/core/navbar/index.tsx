@@ -97,11 +97,11 @@ function Navbar(props: NavbarProps) {
           <Flex direction="column">
             <Flex align="center" justify="space-between">
               <Flex p={4} as="a" href="https://www.howmuchrent.com">
-                <NextImage
-                  height={48}
-                  width={48}
-                  src="/june-logo-symbol-only.svg"
-                  alt="june-logo"
+                <img
+                  src="https://d365acqfolvjq6.cloudfront.net/assets/full_logo.png"
+                    alt="HowMuchRent Logo"
+                    height="48"
+                    width="48"
                 />
               </Flex>
               <Flex p={4} onClick={onMobileMenuToggle}>

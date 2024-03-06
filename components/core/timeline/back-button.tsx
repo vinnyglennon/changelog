@@ -69,8 +69,6 @@ const BackButton = () => {
           <path
             className="arrow-head"
             d="M5.25 9L1.25 5L5.25 1"
-            // stroke="black"
-            // store rgba(134, 142, 150, 1)
             stroke="#868E96"
             stroke-width="1.5"
             stroke-linecap="round"

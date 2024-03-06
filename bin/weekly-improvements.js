@@ -41,8 +41,8 @@ async function fetchPRs(owner, repo) {
 }
 
 async function main() {
-  const owner = "juneHQ";
-  const repo = "june";
+  const owner = "HowMuchRent";
+  const repo = "HowMuchRent";
   const prs = (await fetchPRs(owner, repo)).reverse();
 
   return prs.map((pr) => {
